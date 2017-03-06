@@ -1,14 +1,22 @@
-.gradle
-build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+*.iml
+/upload-bin/.gradle
+/upload-bin/build
+/load-bin/.gradle
+/load-bin/build
+/load-bin/.idea
+/msvs-model/.gradle
+/msvs-model/base-lib/build
+/msvs-model/main-src/build
+/msvs-model/.idea
+/parse/.idea
+/parse/.gradle
+/local-repo
+/parse/build
+/binary_delivery/.gradle
+/binary_delivery/.idea
+/binary_delivery/build
+/publish/.gradle
+/publish/build
+/publish/uploads/boost
+/publish/uploads/boost_atomic-vc120
+/publish/uploads/boost_chrono-vc120

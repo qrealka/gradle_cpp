@@ -1,2 +1,4 @@
-# gradle_cpp
-Simple gradle scripts for binary delivery 
+cpp_gradle
+==========
+
+research gradle build system to compile native projects

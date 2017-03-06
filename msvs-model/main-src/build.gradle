@@ -1,0 +1,24 @@
+project(":main-src") 
+{
+	
+apply plugin: 'cpp'
+
+model {
+    components {
+        main(NativeExecutableSpec) {
+            sources {
+                cpp {
+                	cpp.lib project: ':base-lib', library: 'main'
+
+                    source {
+                        srcDir "./"
+                        include "**/*.cpp"
+                    }
+                }
+            }
+        }
+    }
+}
+
+}
+ 

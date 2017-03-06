@@ -1,0 +1,25 @@
+project(":base-lib") 
+{
+
+apply plugin: 'cpp'
+
+model {
+    components {
+        main(NativeLibrarySpec) {
+            sources {
+                cpp {
+                    source {
+                        srcDir "src"
+                        include "**/*.cpp"
+                    }
+                    exportedHeaders {
+                        srcDir "include"
+                        include "*.h"
+                    }                   
+                }
+            }
+        }
+    }
+}
+
+}
